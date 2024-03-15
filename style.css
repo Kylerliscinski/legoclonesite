@@ -1,3 +1,7 @@
+img {
+  width: 100%;
+}
+
 .logo-size {
   width: 150px;
 }
@@ -12,6 +16,28 @@
 .small-font {
   font-size: x-small;
 }
+
+.fun-font {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.float-card {
+  position: absolute;
+  bottom: -12vh;
+}
+
+.float-card-offset {
+  margin-bottom: 10vh;
+}
+
+.containing-block {
+  position: relative;
+  min-height: 5vh;
+  padding: 0;
+}
+
 
 /* Customize the label (the container) */
 .container {
